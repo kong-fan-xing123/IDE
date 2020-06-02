@@ -8,3 +8,7 @@ escape =function(str){
     }
     return _c
 }
+
+escape.toString = function(){
+    return "function escape() { [native code] }"
+}
